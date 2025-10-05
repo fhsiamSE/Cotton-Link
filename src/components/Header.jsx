@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/cottonlinkLogo.png";
+import logo from "../assets/cottonLinkLogo.png";
 
 function Header({ activeSection, onNavClick }) {
     return (

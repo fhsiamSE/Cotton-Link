@@ -9,7 +9,7 @@ function Footer() {
           {/* Logo & Name */}
           <div className="flex items-center gap-3">
             <img
-              src="/src/assets/cottonlinkLogo.png"
+              src="/src/assets/cottonLinkLogo.png"
               alt="Cotton Link Logo"
               className="w-12 h-12 rounded-full border-2 border-blue-400 shadow"
             />
