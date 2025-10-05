@@ -13,8 +13,8 @@ function About() {
                     src={profileImage}
                     alt="Profile"
                 />
-                <div className="bg-white shadow-2xl mt-[-20px] shadow-blue-950 h-[60px] w-[80%] max-w-[300px] mx-auto md:ml-10 relative">
-                    <div className="flex justify-center items-center gap-6 text-2xl pt-4 text-gray-600">
+                <div className="bg-white shadow-2xl mt-[-20px] shadow-blue-950 h-[60px] w-[80%] max-w-[500px] mx-auto md:ml-10 relative">
+                    <div className="flex justify-center items-center md:gap-6 gap-3 text-2xl pt-4 text-gray-600">
                         <a href='https://www.facebook.com/'><FaFacebookF /></a>
                         <a href='https://www.facebook.com/'><FaInstagram /></a>
                         <a href='https://www.facebook.com/'><FaLinkedinIn /></a>

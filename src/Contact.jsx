@@ -46,7 +46,7 @@ function Contact() {
           </div>
         </div>
         {/* Google Map */}
-        <div className="w-full md:w-1/2 flex justify-center items-center mt-10 md:mt-0">
+        <div className="w-full h-1/2 md:w-1/2 flex justify-center items-center mt-10 md:mt-0">
           <iframe
             title="Cotton Link Address"
             src="https://www.google.com/maps?q=47/48+S.+M.+Maleh+Road,+Tanbazar,+Narayanganj+-+1400,+Bangladesh.&output=embed"
