@@ -19,7 +19,7 @@ function Home() {
                 <div className="md:flex md:mt-20 mt-30 w-full  backdrop-blur-md bg-white/10 ">
                     <div className="p-8">
                         <div>
-                            <img className='w-[20%] h-[20%] rounded-full mx-auto mb-4 mt-20 animate-bounce shadow-black shadow-2xl ' 
+                            <img className='md:w-[30%] md:h-[30%] sm:w-[40%] sm:h-[40%] rounded-full mx-auto mb-4 mt-20 animate-bounce shadow-black shadow-2xl ' 
                             src={Logo} 
                             alt="Logo" />
                         </div>

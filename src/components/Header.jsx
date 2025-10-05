@@ -3,7 +3,7 @@ import logo from "../assets/cottonLinkLogo.png";
 
 function Header({ activeSection, onNavClick }) {
     return (
-      <div className="fixed top-0 left-0 w-full items-center p-4 flex flex-col md:flex-row md:justify-between bg-white   z-100">
+      <div className="fixed top-0 left-0 w-full items-center p-4 flex flex-col md:flex-row md:justify-between bg-white z-100">
             <div className="md:flex items-center mb-4 md:mb-0">
                 <img src={logo} alt="Logo" className="w-32 h-16 mr-4 rounded-lg" />
             </div>
