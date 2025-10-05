@@ -1,6 +1,6 @@
 import React from 'react';
 import cotton from '../assets/cotton.jpeg';
-import Logo from '../assets/logo.jpg';
+import Logo from '../assets/cottonLinkLogo.png';
 import video from '../assets/video.mp4';
 
 function Home() {
@@ -15,16 +15,16 @@ function Home() {
                     backgroundPosition: 'top',
                 }}
             >
-                <div className=" top-0 left-0 w-full h-full bg-black opacity-50 z-10"></div>
-                <div className="md:flex md:mt-20 mt-30 w-full ">
+                <div className=" top-0 left-0 w-full h-full bg-black opacity-50 z-10 "></div>
+                <div className="md:flex md:mt-20 mt-30 w-full  backdrop-blur-md bg-white/10 ">
                     <div className="p-8">
                         <div>
                             <img className='w-[20%] h-[20%] rounded-full mx-auto mb-4 mt-20 animate-bounce shadow-black shadow-2xl ' 
                             src={Logo} 
                             alt="Logo" />
                         </div>
-                        <h1 className="text-6xl font-extrabold mb-4 text-center">Cotton Link </h1>
-                        <p className="text-md mb-6 font-stretch-75% text-xl mt-20 trxt-justify-center">
+                        <h1 className="text-6xl font-extrabold mb-4 text-center">{""} </h1>
+                        <p className="text-md mb-6 font-stretch-75% text-xl mt-20 trxt-justify-cente ">
                             Cotton Link is a dynamic and steadily growing company specializing in the local representation of globally renowned raw cotton suppliers. Established in 2022, Cotton Link operates as a trusted bridge between international cotton producers and the textile industry of Bangladesh, particularly serving spinning mills and cotton importers across the country.
 
                             With a strong focus on quality, reliability, and service excellence, Cotton Link is committed to delivering premium-grade raw cotton that meets the diverse needs of modern textile manufacturing. Our company plays a vital role in supporting Bangladesh’s booming textile sector by ensuring a consistent supply of raw cotton, sourced from trusted international origins and delivered through efficient, well-managed supply chains.
